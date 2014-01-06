@@ -1,0 +1,295 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@-moz-viewport{ width: device-width; scale:1;}
+@-ms-viewport{ width: device-width; scale:1;}
+@-o-viewport{ width: device-width; scale:1;}
+@-webkit-viewport{ width: device-width; scale:1;}
+@viewport{ width: device-width; scale:1;}
+
+html{
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+body {
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	background-color: #3F558E;
+}
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 1.5rem;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 1.5rem 5%;
+}
+
+h1 a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+h2 {
+	color: #FFFFFF;
+	text-align: center;
+	padding: 1rem 7.5%;
+}
+	
+
+@media only screen and (min-width:30em){
+	h1 {
+		padding: 2rem 5%;
+	}
+}
+
+@media only screen and (min-width:50em){
+	h1 {
+		padding: 3rem 5%;
+	}
+}
+
+@media only screen and (min-width:75em){
+	h1 {
+		font-size: 2rem;
+	}
+}
+
+@media only screen and (min-width:125em){
+	h1 {
+		font-size: 4rem;
+	}
+}
+
+@media only screen and (min-width:175em){
+	h1 {
+		font-size: 6rem;
+	}
+}
+
+/************************************************** Navigation **************/
+
+.nav {
+	text-align: center;
+	color: #EDEDED;
+	font-size: .75rem;
+}
+
+.nav li {
+	display:inline-block;
+	padding: 1rem 0;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+	text-decoration: none;
+	padding: .5rem .4rem;
+	color: #FFFFFF;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+	background-color: #1C2959;
+}
+
+@media only screen and (min-width:30em){
+	.nav {
+		text-align: center;
+		color: #EDEDED;
+		font-size: .9rem;
+}
+
+	.nav li {
+		display:inline-block;
+		padding: 1rem 1%;
+}
+}
+
+@media only screen and (min-width:50em){
+	.nav {
+		font-size: 1rem;
+	}
+	
+	.nav li {
+		padding: 2rem 2%;
+	}
+}
+
+@media only screen and (min-width:100em){
+	.nav {
+		font-size: 1.5rem;
+	}
+}
+
+
+@media only screen and (min-width:150em){
+	.nav {
+		font-size: 2rem;
+	}
+	.nav li {
+		padding: 3rem 3%;
+	}
+}
+
+/************************************************** Homepage Content *********/
+
+.title {
+	background-color: #1D2A56;
+}
+
+p {
+	font-size: .75rem;
+	color: #FFFFFF;
+	line-height: 1rem;
+	text-align: center;
+	padding: 2rem 7.5%;
+}
+
+.bckcol1 {
+	background-color: #3F558E;
+}
+
+.bckcol2 {
+	background-color: #7383A4;
+	}
+
+.bckcol3 {
+	background-color: #1D2A56;
+}
+
+.bckcol4 {
+	background-color: #848AA2;
+}
+
+@media only screen and (min-width:50em){
+	p {
+		font-size: .9rem;
+		padding: 2rem 15%;
+	}
+}
+
+@media only screen and (min-width:75em){
+	p {
+		padding: 3rem 25%;
+	}
+}
+
+@media only screen and (min-width:150em){
+	p {
+		font-size: 2rem;
+		line-height: 2rem;
+		padding: 4rem 30%;
+	}
+}
+
+@media only screen and (min-width:175em){
+	p {
+		font-size: 2.25rem;
+		line-height: 2.5rem;
+		padding: 4.5rem 35%;
+	}
+}
+
+
+/************************************************** Footer *******************/
+
+.social {
+	width: 2rem;
+	padding: 0;
+}
+
+/************************************************** Resume *******************/
+
+.resume-img {
+	width: 60%;
+	border: solid 3px #FFFFFF;
+	margin: 1rem 20%;
+}
+
+.caption {
+	margin: -2.5rem 0 -1rem;
+}
+
+/************************************************** Fees *********************/
+	
+table {
+	width: 90%;
+	margin: 1.5rem 5%;
+}
+
+table th,td {
+	color: #FFFFFF;
+	font-size: .7rem;
+	padding: .5rem .4rem;
+}
+
+table th {
+	font-size: .75rem;
+}
+
+table td {
+	font-style: oblique;
+}
+
+@media only screen and (min-width:50em){
+	table {
+		border: solid 3px #FFFFFF;
+	}
+		
+	table th {
+		font-size: 1rem;
+		border: solid 1px #FFFFFF;
+	}
+	
+	table td {
+		font-size: .9rem;
+	}
+}
+
+@media only screen and (min-width:100em){
+	table {
+		border: solid 3px #FFFFFF;
+	}
+		
+	table th {
+		font-size: 1.5rem;
+		border: solid 1px #FFFFFF;
+	}
+	
+	table td {
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (min-width:150em){
+	table {
+		border: solid 3px #FFFFFF;
+	}
+		
+	table th {
+		font-size: 2rem;
+		border: solid 1px #FFFFFF;
+	}
+	
+	table td {
+		font-size: 2rem;
+	}
+}
+	
+/************************************************** Contact ******************/
+
+.contactme {
+	text-decoration: none;
+	color: #ABABAB;
+}
+
+.contact-img {
+	width: 100%;
+	padding: 0 20%;
+	}
